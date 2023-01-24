@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Clock - Wheather &amp; Time</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <div class="main-container container">
+    <h1>Weather & Time</h1>
+
+    <form>
+      <input type="text" name="city" id="city" placeholder="Enter your city name" />
+      <button type="submit" class="btn">Search</button>
+    </form>
+
+    <div class="error"></div>
+
+    <div class="weather-container container">
+      <!-- City, Country -->
+      <p class="location-info">
+        <span class="city"></span>, <span class="country"></span> -
+        <span class="time"></span>
+      </p>
+  
+      <!-- icon -->
+      <img id="icon" src="" alt="icon" />
+      <!-- Temp -->
+      <h2 class="temp"></h2>
+      <!-- Weather description -->
+      <h4 class="description"></h4>
+    </div>
+  </div>
+</main>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
